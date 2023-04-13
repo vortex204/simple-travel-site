@@ -26,6 +26,11 @@ h1, h2, nav {
         color: #070707;
     }
 
+    th{
+        background-color: black;
+        color: white;
+    }
+
     .Photo {
         width: 45vw;
         height: 45vw;   
@@ -38,10 +43,15 @@ h1, h2, nav {
     
     nav a:hover{
         text-decoration: underline;
-        color: Oblue;
+        color: blue;
     }
 
     p {
         font-family: sans-serif;
+        text-indent: 50px;
+        text-align: left;
+        padding: auto;
+        
+        
     }
     
