@@ -16,6 +16,7 @@ h1, h2, nav {
         width: 100%;
         border: 1px solid gray;
         border-collapse: collapse;
+        background-color: lightgrey;
     }
     
     th, td {
@@ -51,6 +52,8 @@ h1, h2, nav {
         text-indent: 50px;
         text-align: left;
         padding: auto;
+        background-color: lightgrey;
+
         
         
     }
