@@ -1,60 +1,66 @@
-h1, h2, nav {
-        text-align: center;
-    }
-    
-    nav a {
-        text-decoration: none;
-        font-size: 20px;
-        color:000000; 
-        border-radius: 10vw;
-        padding: 5;
-        margin-bottom: 50;
-    }
-    
-    .table-center {
-        margin: 0 auto;
-        width: 100%;
-        border: 1px solid gray;
-        border-collapse: collapse;
-        background-color: lightgrey;
-    }
-    
-    th, td {
-        border: 1px solid gray;
-        padding: 1rem;
-        text-align: left;
-        background-color: O#000000;
-        color: #070707;
-    }
+/* General styles */
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
 
-    th{
-        background-color: black;
-        color: white;
-    }
+/* Header and navigation styles */
+h1,
+h2,
+nav {
+    text-align: center;
+}
 
-    .Photo {
-        width: 45vw;
-        height: 45vw;   
-        border-radius: 23vw;
-    }
-    
-    .Photo:hover {
-        border-radius: 0;
-    }
-    
-    nav a:hover{
-        text-decoration: underline;
-        color: blue;
-    }
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10vw;
+    padding: 5px;
+    margin-bottom: 50px;
+}
 
-    p {
-        font-family: sans-serif;
-        text-indent: 50px;
-        text-align: left;
-        padding: auto;
-        background-color: lightgrey;
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
 
-        
-        
-    }
-    
+/* Paragraph styles */
+p {
+    text-indent: 50px;
+    text-align: left;
+    padding: auto;
+}
+
+/* Table styles */
+.table-center {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color: lightgrey;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 1rem;
+    text-align: left;
+  
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+/* Photo styles */
+.Photo {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 23vw;
+}
+
+.Photo:hover {
+    border-radius: 0;
+}
