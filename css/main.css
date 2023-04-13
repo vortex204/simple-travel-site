@@ -5,6 +5,10 @@ h1, h2, nav {
     nav a {
         text-decoration: none;
         font-size: 20px;
+        color:000000; 
+        border-radius: 10vw;
+        padding: 5;
+        margin-bottom: 50;
     }
     
     .table-center {
@@ -18,8 +22,10 @@ h1, h2, nav {
         border: 1px solid gray;
         padding: 1rem;
         text-align: left;
+        background-color: O#000000;
+        color: #070707;
     }
-    
+
     .Photo {
         width: 45vw;
         height: 45vw;   
@@ -30,6 +36,11 @@ h1, h2, nav {
         border-radius: 0;
     }
     
+    nav a:hover{
+        text-decoration: underline;
+        color: Oblue;
+    }
+
     p {
         font-family: sans-serif;
     }
