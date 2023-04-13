@@ -35,3 +35,13 @@ p {
         font-family: sans-serif;
     }
 
+    .photo{
+        width: 45vw;
+        height: 45vw;   
+        border-radius: 23vw;
+    }
+
+    .photo:hover {
+        border-radius: 0vw;
+        
+    }
